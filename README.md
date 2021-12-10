@@ -5,6 +5,7 @@ Code for ETAS models
 1) Temporal ETAS
 2) Spatial ETAS 
 3) Spatio-temporal ETAS
+
 The background rate is considered non-homogeneous in the respective domains. It is parameterised as a spline function.
 
 Both Freqeuntist and Bayesian solutions are presented. 
