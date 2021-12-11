@@ -26,6 +26,6 @@ The proper approach would be to optimize the marginal log-likelihood while optim
 
 Code for both the iterative method and the nested method are provided. Note that although nested method is better, the aforementioned subset inversion technique is not useful here. So if the background rate is expressed in terms of a large number of parameters, iterative estimation method (with sparse subset inversion enabled and hessians disables) is the only feasible option. In such cases, care must be taken to provide good initial parameter/hyperparameter values to the algorithm.
 
-The STAN/C++ based MCMC algorithm to perform Bayesian estimation for these models is also provided. However, note that the code for Bayesian methods is not updated and used the previous parameterization of the background rate function. Small changes are needed to make it compatible with the newer formulations.
+The STAN/C++ based MCMC algorithm to perform Bayesian estimation for these models is also provided. However, note that the code for Bayesian methods is not updated; it is still based on the previous parameterization of the background rate function. A few minor changes are needed to make it compatible with the newer formulations.
 
 [TODO] Clean the code!
